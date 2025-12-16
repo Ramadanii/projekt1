@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerPage {
+    position: relative;
+    width: 100%;
+
+
+}
+
+
+.portfolioTitle {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+    /* qendër horizontalisht + hapësirë poshtë */
+    border: 2px solid #000;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    border-radius: 8px;
+    /* optional për kënd të rrumbullakosur */
+}
+
+.imgFigura {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.textOfHeader {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    line-height: 1.8;
+}
+
+.contactMe {
+    width: fit-content;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*main*/
+
+
+.imgYk {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.mainSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding: 20px;
+    gap: 60px;
+
+}
+
+.mainText {
+    line-height: 1.8;
+    font-family: Arial, sans-serif;
+}
+
+.mainAbout {
+    font-weight: bold;
+}
+
+
+
+.someImg img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+.someImg {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-self: center;
+}
+
+/*footer*/
+
+.footerRights {
+    width: 100%;
+    background-color: burlywood;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+
+}
